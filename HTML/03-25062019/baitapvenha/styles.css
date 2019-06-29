@@ -1,0 +1,26 @@
+#mot{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem !important;
+  width:1000px ;
+  height:66px ;
+  background-color: orange;
+}
+#hai{ display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem !important;
+  width:1000px ;
+  height:132px;
+  background-color:darkcyan;
+}
+#ba{ 
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem !important;
+  width: 1000px;
+  height: 34px;
+  background-color: blue;
+}
