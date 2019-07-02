@@ -1,0 +1,10 @@
+.Border-bottom-custom {
+  border-bottom: 3px solid white;
+}
+.li:hover{
+  border-bottom: 3px solid gray;
+}
+.lead{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
