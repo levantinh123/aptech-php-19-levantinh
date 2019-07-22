@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                if ($("img").attr("src") == "./img/pic_bulboff.gif") {
+                    $("img").attr("src", "./img/pic_bulbon.gif");
+                } else
+                    $("img").attr("src", "./img/pic_bulboff.gif");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <img src="./img/pic_bulboff.gif" id="imageoff" alt="" style="width: 100px">
+
+    <button onclick="doianh()">DoiAnh</button>
+
+</body>
+
+</html>
